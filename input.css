@@ -10,5 +10,33 @@
 body{
     font-size: 16px;
     font-family: "Be Vietnam Pro", sans-serif;
+    background-color: var(--very-light-gray);
+    background-image: url("images/bg-simplify-section-desktop.svg");
+}
+
+.hdr-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 30px 60px 30px;
+}
+
+.hdr-button{
+    background: var(--bright-red);
+    color: var(--very-pale-red);
+    font-family: inherit;
+    font-size: inherit;
+    padding: 20px;
+    border-radius: 40px;
+    width: 190px;
+    border: none;
+    box-shadow: 0 6px 30px -6px var(--bright-red);
+}
+
+.hdr-button:hover{
+    cursor: pointer;
+}
+.hdr-button:active{
+
 }
 

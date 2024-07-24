@@ -12,6 +12,7 @@ body{
     font-family: "Be Vietnam Pro", sans-serif;
     background-color: var(--very-light-gray);
     background-image: url("images/bg-simplify-section-desktop.svg");
+    color : var(--dark-blue);
 }
 
 .hdr-container{
@@ -37,6 +38,24 @@ body{
     cursor: pointer;
 }
 .hdr-button:active{
+    filter: grayscale(15%);
+}
 
+.hdr-titles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px
+}
+
+.hdr-titles div{
+    font-weight: bold;
+}
+
+.hdr-titles div:hover {
+    cursor: pointer;
+}
+.hdr-titles div:active{
+    filter: grayscale(15%);
 }
 

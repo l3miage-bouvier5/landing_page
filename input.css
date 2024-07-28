@@ -15,11 +15,28 @@ body{
     color : var(--dark-blue);
 }
 
+
+/* Styles pour les classes communes */
+
+.text{
+    width: 360px;
+    color: var(--dark-grayish-blue);
+    line-height: 30px;
+}
+
+.section-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 150px;
+
+}
+
+/* Styles du header */
 .hdr-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 70px 30px 60px 30px;
+    margin: 70px 50px 60px 70px;
 }
 
 .hdr-button{
@@ -31,7 +48,9 @@ body{
     border-radius: 40px;
     width: 190px;
     border: none;
-    box-shadow: 0 6px 30px -6px var(--bright-red);
+    box-shadow: 0 15px 10px -10px var(--bright-red);
+    height: 55px;
+    font-weight: bold;
 }
 
 .hdr-button:hover{
@@ -58,4 +77,87 @@ body{
 .hdr-titles div:active{
     filter: grayscale(15%);
 }
+
+
+/* Style de la première section */
+
+.fs-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height:500px ;
+}
+
+.fs-title{
+    font-weight: 700;
+    font-size: 4em;
+    margin: 30px 0 0;
+    width: 700px;
+}
+
+
+
+/* Styles pour la deuxième section */
+.ss-container{
+    margin-top: 200px;
+}
+
+.ss-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.ss-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 3em;
+    width: 700px;
+}
+
+.ss-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 580px;
+    height: 550px;
+}
+/* Styles pour la liste de la deuxième section */
+
+.list-elem{
+    display: flex;
+    justify-content: space-around;
+    width: 580px;
+    align-items: flex-start;
+}
+
+.elem-text{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.elem-content{
+    width: 435px;
+}
+.elem-number{
+    background-color: var(--bright-red);
+    color: var(--very-pale-red);
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    height: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.elem-title{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+
 

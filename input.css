@@ -158,6 +158,130 @@ body{
 }
 
 
+/* reviews container */
+.reviews-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 650px;
+}
 
+.r-title{
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+}
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* For Firefox */
+}
+
+.carousel-wrapper::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.review {
+    min-width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:250px ;
+    justify-content: space-around;
+    width: 650px;
+}
+
+.review img{
+    width: 85px;
+}
+.review:last-child {
+    margin-right: 0;
+}
+
+.review-text{
+    width: 80%;
+    text-align: center;
+}
+
+.review-name{
+    font-weight: bold;
+}
+
+/* pre footer */
+.pre-footer{
+    display: flex;
+    background-color: var(--bright-red);
+    background-image: url("images/bg-simplify-section-desktop.svg");
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.reversed-button{
+    background: white;
+    color: var(--bright-red);
+    font-family: inherit;
+    font-size: inherit;
+    padding: 20px;
+    border-radius: 40px;
+    width: 190px;
+    border: none;
+    height: 55px;
+    font-weight: bold;
+}
+.reversed-button:hover{
+    cursor: pointer;
+}
+
+.reversed-button:active{
+    filter: grayscale(60%);
+}
+.pf-title{
+    color: white;
+    font-weight: 700;
+    font-size: 3em;
+    width: 700px;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    height: 400px;
+    background-color: var(--very-dark-blue);
+    color: var(--very-light-gray);
+    align-items: center;
+    justify-content: space-around;
+}
+.f-logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.white-logo{
+    width: 200px;
+}
+.social-logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.social-logo{
+    width: 30px;
+}
 
 
